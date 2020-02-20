@@ -5,11 +5,11 @@
 }
 
 .navigation {
-    margin: 2em;
+    margin: 1em;
 }
 
 .navigation__link {
-    padding: 0 1em 0 1em;
+    padding-right: 1em;
 }
 
 .fishList {
@@ -29,6 +29,10 @@
 
 .tip {
     margin: 1rem 0 2rem 0;
+}
+
+.thoughts {
+    margin: 1rem 0 2rem 0 
 }
 
 .bordered {
