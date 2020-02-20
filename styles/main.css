@@ -38,3 +38,12 @@
 .bordered {
     border: 1px dashed goldenrod;
 }
+
+
+/* locations page */
+.fishTips {
+    display:flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin-bottom: 3em;
+}
