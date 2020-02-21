@@ -17,6 +17,7 @@ const initializeDetailButtonEvents = () => {
     // You will be writing code below this line
 
      // Show Bart's details when the button is clicked
+     
      document.querySelector("#button--bart").addEventListener(
         "click",
         theClickEvent => {
@@ -54,6 +55,14 @@ const initializeDetailButtonEvents = () => {
         "click",
         theClickEvent => {
             const theDialog = document.querySelector("#details--bob")
+            theDialog.showModal()
+        }
+    )
+
+    document.querySelector("#button--evan").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--evan")
             theDialog.showModal()
         }
     )
