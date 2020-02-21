@@ -1,50 +1,13 @@
+@import 'nav.css';
+@import 'fish.css';
+@import 'tips.css';
+
 .container {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
 
-.navigation {
-    margin: 1em;
-}
-
-.navigation__link {
-    padding-right: 1em;
-}
-
-.fishList {
-    flex-basis: 65%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.fish__image {
-    width: 8rem;
-    height: 8rem;
-}
-
-.tipList {
-    flex-basis: 20%;
-}
-
-.tip {
-    margin: 1rem 0 2rem 0;
-}
-
-.thoughts {
-    margin: 1rem 0 2rem 0 
-}
-
 .bordered {
     border: 1px dashed goldenrod;
-}
-
-
-/* locations page */
-.fishTips, .martinsTips {
-    display:flex;
-    flex-direction: row;
-    border: 1px solid black;
-    margin-bottom: 3em;
-    width:70%;
 }
