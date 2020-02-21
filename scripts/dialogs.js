@@ -24,6 +24,41 @@ const initializeDetailButtonEvents = () => {
             theDialog.showModal()
         }
     )
+
+    
+     document.querySelector("#button--david").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--david")
+            theDialog.showModal()
+        }
+    )
+
+    document.querySelector("#button--spence").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--spence")
+            theDialog.showModal()
+        }
+    )
+
+    document.querySelector("#button--rick").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--rick")
+            theDialog.showModal()
+        }
+    )
+
+    document.querySelector("#button--bob").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--bob")
+            theDialog.showModal()
+        }
+    )
+
+    
 }
 
 export default initializeDetailButtonEvents
